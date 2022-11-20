@@ -1,0 +1,126 @@
+body {
+    background-color: #3C3F41;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+}
+
+
+/* Container */
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.links,
+.rechts {
+    padding: 60px 40px;
+}
+
+
+.links {
+    width: 35%;
+    background-color: #f5f5f5;
+}
+
+
+.rechts {
+    width: 65%;
+    background-color: white;
+}
+
+
+.foto img {
+    width: 100px;
+}
+
+
+/* Titel */
+
+.titel {
+    margin-top: 40px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #3C3F41;
+    text-transform: uppercase;
+}
+
+.links .titel {
+    text-align: center;
+}
+
+
+/* Titel */
+
+.informatie {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.informatie img {
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+/* Kaders */
+
+.contacteer .informatie li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contacteer .contacteer-link {
+    display: flex;
+}
+
+.opleiding .informatie li {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.opleiding .opleiding-richting {
+    font-weight: bold;
+}
+
+
+.opleiding .opleiding-school {
+    font-size: 16px;
+}
+
+
+.opleiding .opleiding-jaar {
+    font-size: 12px;
+}
+
+
+.vaardigheden {}
+
+.ervaring {}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .container {
+        flex-direction: column-reverse;
+        width: 500px;
+    }
+
+    .links,
+    .rechts {
+        width: 100%;
+    }
+
+    .links .titel {
+        text-align: left;
+    }
+}
