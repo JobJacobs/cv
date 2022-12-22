@@ -1,14 +1,5 @@
 # CV
-cv voor school
+Cv voor school
 
 
 icoontjes: https://fontawesome.com/
-
-
-git:
-```
-git status
-git add .
-git commit -m "bericht"
-git push
-```
