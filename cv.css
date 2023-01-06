@@ -3,9 +3,22 @@ body {
     font-family: Verdana, sans-serif;
     font-size: 14px;
 }
-.hoofding img{
+
+.foto img {
+    width: 200px;
     border-radius: 50%;
+
 }
+.img{
+    border-radius: 50%;
+    height: 100px;
+    display: inline-block;
+}
+.foto:hover{
+    box-shadow: 10px 10px  gray;
+
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -44,11 +57,6 @@ html{
     height: 200px;
     background: #656565;
     display: flex;
-}
-
-
-.foto img {
-    width: 100px;
 }
 
 
@@ -97,6 +105,14 @@ tfoot {
     display: flex;
     align-items: center;
 }
+.Nederlands{
+    width: 90%;
+    background-color: deepskyblue;
+}
+.English{
+    width: 70%;
+    background-color: deepskyblue;
+}
 a{
     color: blue;
     text-decoration: none;
@@ -137,6 +153,34 @@ a{
     padding: 120px 60px;
     background-color: white;
 }
+.skill_bar{
+    width: 100%;
+    background-color: gray;
+}
+.skills{
+    text-align: right;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: black;
+}
+.Html{
+    width: 60%;
+    background-color: #2196F3 ;
+}
+.Css{
+    width: 50%;
+    background-color: #2196F3 ;
+}
+.C\#{
+    width: 40%;
+    background-color: #2196F3 ;
+}
+
+.sql{
+    width: 50%;
+    background-color: #2196F3 ;
+}
+
 
 .footer{
     width: 1000px;
