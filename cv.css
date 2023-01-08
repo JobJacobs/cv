@@ -9,19 +9,22 @@ body {
     border-radius: 50%;
 
 }
-.img{
+
+.img {
     border-radius: 50%;
     height: 100px;
     display: inline-block;
 }
-.foto:hover{
-    box-shadow: 10px 10px  gray;
+
+.foto img:hover {
+    box-shadow: 10px 10px gray;
 
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
+
 /* Container */
 
 .container {
@@ -87,6 +90,7 @@ html{
     width: 20px;
     margin-right: 20px;
 }
+
 table,
 thead,
 tfoot {
@@ -105,15 +109,18 @@ tfoot {
     display: flex;
     align-items: center;
 }
-.Nederlands{
+
+.nederlands {
     width: 90%;
     background-color: deepskyblue;
 }
-.English{
+
+.english {
     width: 70%;
     background-color: deepskyblue;
 }
-a{
+
+a {
     color: blue;
     text-decoration: none;
 }
@@ -141,48 +148,50 @@ a{
     font-size: 12px;
 }
 
-
-.vaardigheden {}
-.vaardigheden_tabel tr:nth-child(odd){
+.vaardigheden_tabel tr:nth-child(odd) {
     background: magenta;
 }
 
-.ervaring {}
 
 .opdracht {
     padding: 120px 60px;
     background-color: white;
 }
-.skill_bar{
+
+.skill_bar {
     width: 100%;
     background-color: gray;
 }
-.skills{
+
+.skills {
     text-align: right;
     padding-top: 0px;
     padding-bottom: 0px;
     color: black;
 }
-.Html{
+
+.html {
     width: 60%;
-    background-color: #2196F3 ;
+    background-color: orange;
 }
-.Css{
+
+.css {
     width: 50%;
-    background-color: #2196F3 ;
+    background-color: #2196F3;
 }
-.C\#{
+
+.c\# {
     width: 40%;
-    background-color: #2196F3 ;
+    background-color: greenyellow;
 }
 
-.sql{
+.sql {
     width: 50%;
-    background-color: #2196F3 ;
+    background-color: #2196F3;
 }
 
 
-.footer{
+.footer {
     width: 1000px;
     display: flex;
     flex-direction: row;
@@ -193,20 +202,28 @@ a{
 
 @media (max-width: 1024px) {
     .container,
-    .footer{
+    .footer {
 
         width: 500px;
     }
-    .links{
+
+    .links {
         order: 2;
     }
-    .rechts{
+
+    .rechts {
         order: 1;
     }
 
     .links,
-    .rechts{
+    .rechts {
         width: 100%;
+    }
+    .vaardigheden_list{
+        visibility: visible;
+    }
+    .vaardigheden_tabel{
+
     }
 
     .links .titel {
