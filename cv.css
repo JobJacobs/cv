@@ -150,6 +150,10 @@ a {
 
 .vaardigheden_tabel tr:nth-child(odd) {
     background: magenta;
+
+}
+.vaardigheden_list{
+    display: none;
 }
 
 
@@ -220,9 +224,10 @@ a {
         width: 100%;
     }
     .vaardigheden_list{
-        visibility: visible;
+        display:flex;
     }
     .vaardigheden_tabel{
+        display: none;
 
     }
 
